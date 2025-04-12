@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 #VPC
-resource "aws_vpx" "VPC_ACT3" {
+resource "aws_vpc" "VPC_ACT3" {
     cidr_block = "10.10.0.0/20"
     tags = {
         Name = "VPC_ACT3"
